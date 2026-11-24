@@ -1,0 +1,11 @@
+# Starter list based on imports in the four source files.
+# Not an exported pip freeze from the original Windows environment.
+# Tested project used Python 3.13.
+numpy
+opencv-python
+supervision==0.25.0
+mediapipe
+sounddevice
+silero-vad
+torch
+scipy
