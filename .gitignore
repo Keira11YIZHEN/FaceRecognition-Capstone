@@ -1,0 +1,33 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# Biometric enrollment and locally captured media
+db/
+captures/
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mov
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# ML model binaries (download separately)
+models/
+*.onnx
+*.task
+
+# Local secrets
+.env
+.env.*
+!.env.example
